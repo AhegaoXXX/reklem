@@ -1,0 +1,180 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    background: white;
+}
+.container{
+    max-width: 960px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.button{
+    color: white;
+    background:#10BB87;
+    box-shadow: 0px 9px 25px -4px rgba(72, 123, 108, 0.5);
+    border-radius: 10px;
+    padding: 12px 30px;
+}
+.section-1{
+    background: url(/img/white-items.png) #F2F2F2 no-repeat 50% 0;
+    padding: 90px 0 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.box h1{
+    height: 88px;
+    width: 506px;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+.box p{
+    height: 40px;
+    width: 448px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    padding: 20px 0 10px 25px;
+}
+.box a{
+    height: 24px;
+    width: 150px;
+    left: 550px;
+    top: 372px;
+    align-self: center;
+}
+.orange-underline{
+    text-decoration: underline 6px #FFA630;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 200px;
+    border-bottom: 2px solid #F2F2F2;
+    padding-bottom: 100px;
+}
+.main-inner{
+    margin-right: 128px;
+}
+.main-inner h2{
+    height: 132px;
+    width: 448px;
+    left: 203px;
+    top: 918px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.main-inner p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+.card{
+    width: 25%;
+}
+.main-pannel{
+    background-size: 60%;
+    background: url(/img/green-phone__icons.png) no-repeat 100%;
+    padding-top: 150px;
+
+}
+.colums{
+    display: flex;
+}
+.colums-img{
+    width: 50%;
+    margin-top: 150px;
+}
+.colums-img img{
+    width: 100%;
+}
+.pannel{
+    width: 50%;
+    padding-top: 50px;
+}
+.pannel h2{
+    height: 132px;
+    width: 306px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+}
+.pannel p{
+    height: 40px;
+    width: 352px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #487B6C;
+    padding-top: 5%;
+}
+.pannel a{
+    background: white;
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
+    display: inline-flex;
+}
+.fa-pencil-square-o{
+    margin: 4px 0 0 10px;
+}
+
+.dark-green_underline{
+    text-decoration: underline 6px #487B6C;
+}
+
+.cards-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+.product{
+    width: 24%;
+}
+.product-img{
+    background: #F2F2F2;
+    width: 192px;
+    height: 192px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

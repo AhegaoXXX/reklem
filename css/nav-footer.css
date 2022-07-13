@@ -1,0 +1,33 @@
+.container-n-f{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+    background: #F2F2F2;
+    border-bottom: 2px solid #E5E5E5;
+    ;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+.menu{
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+}
+.item{
+    margin-left: 18px;
+}
+.item-user{
+    margin-left: 49px;
+}
+.buttom-item{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);;
+}
